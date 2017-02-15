@@ -8,3 +8,5 @@
 
 
 ![Cost Function Vectorized](/images/costfunction_vectorized.jpg)
+
+

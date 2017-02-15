@@ -1,10 +1,10 @@
 # Supervised Learning.
 
-## Cost Function NonVectorized
-
-![Cost Function Non Vectorized](/images/2017/02/costfunction.png)
 
 
-## Cost Function Vectorized
+![Cost Function Non Vectorized](/images/costfunction.jpg)
 
-![Cost Function Vectorized](/images/2017/02/costfunction_vectorized.png)
+
+
+
+![Cost Function Vectorized](/images/costfunction_vectorized.jpg)

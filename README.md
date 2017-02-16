@@ -1,6 +1,6 @@
 # Machine Learning
 
-This project has been created as an exercise to implement using Python language Andrew Ng's Machine Learning Course. Originally the course is taught using Matlab or Octave. There won't be any submit option because the reason of this project is just to learn about the different Supervised and UnSupervised model functionality.
+This project has been created as an exercise to implement using Python language Andrew Ng's Machine Learning Course. Originally the course is taught using Matlab or Octave. There won't be any submit option because the reason of this project is just to learn about the different Supervised and UnSupervised model functionality in Python.
 
 [Standford Machine Learning course][77c4e76a]
 
@@ -26,7 +26,7 @@ TODO
 
 ### Running the examples
 
-Once the project is cloned run from different modules to run ex${Number}.py file
+Once the project is cloned go to different folders and run ex${Number}.py file
 
 Exercise1:
 

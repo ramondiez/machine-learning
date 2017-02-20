@@ -37,13 +37,10 @@ def plotDecisionBoundary(ax,theta, X, y):
         plt.legend(['Admitted', 'Not admitted'],loc='upper right', fontsize='x-small', numpoints=1) 
         plt.axis([30, 100, 30, 100])
     else:
-        # Here is the grid range
+         # Here is the grid range
         u = np.linspace(-1, 1.5, 50)
         v = np.linspace(-1, 1.5, 50)        
-        z = [
-                np.array([mapFeature(u[i], v[j]).dot(theta) for i in range(len(u)) for j in range(len(v))])                
-            ]
-        
+        z= np.array([mapFeature(u[i], v[j]).dot(theta) for i in range(len(u)) for j in range(len(v))])
         #Reshape to get a 2D array
         z=np.reshape(z, (50, 50))
         

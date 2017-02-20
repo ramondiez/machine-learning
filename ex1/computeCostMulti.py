@@ -20,14 +20,11 @@ def computeCostMulti(X, y, theta):
     # Instructions: Compute the cost of a particular choice of theta
     #               You should set J to the cost.
     
-    #Cost function with multivariable
-    #prediction = sum((X * theta - y) .^2);
-    #J = prediction/(2*m);
-    
+  
     # This both methods are analogous for MULTI-VARIABLE
     
-    # Another vectorized form to compute the cost function
-    #J = ((X*theta -y)' * (X*theta -y))/(2*m);
+    # Vectorized form to compute the cost function
+    
     JMatrix = ((X.dot(theta) - y).T.dot((X.dot(theta) - y)))/(2*m)
     J = JMatrix.item() #Return just the value, not the matrix
     

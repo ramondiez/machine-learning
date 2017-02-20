@@ -20,8 +20,7 @@ def normalEqn(X, y):
     #
     
    
-    
-    #theta = pinv(X' * X) * X' * y;
+    #Normal equation implementation   
     theta = np.linalg.pinv(X.T.dot(X)).dot(X.T).dot(y)
     return theta.flatten()
     

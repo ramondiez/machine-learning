@@ -15,3 +15,12 @@
 
 ## Gradient Descent vectorized
 <img src="/images/gradientDescentLogisticRegressionVectorized.png" alt="Gradient Descent Logistic Regression vectorized" width="50%" height="10%">
+
+## Regularization Term
+The λ, or lambda, is the regularization parameter. It determines how much the costs of our theta parameters are inflated. Theta 0 does not need be regularized.
+
+### Cost function Regularized
+<img src="/images/costFunctionLogisticRegressionRegularized.png" alt="Cost function Logistic Regression Regularized" width="50%" height="10%">
+
+### Gradient Descent Regularized
+<img src="/images/gradientDescentLogisticRegressionRegularized.png" alt="Gradient Descent Logistic Regression Regularized" width="50%" height="10%">

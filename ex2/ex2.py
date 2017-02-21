@@ -148,6 +148,6 @@ print'For a student with scores 45 and 85, we predict an admission probability o
 
 # Compute accuracy on our training set
 p = predict(theta, X);
-print'Train Accuracy: {}'.format(np.mean(np.where(p==y)[0].size))
+print'Train Accuracy: {}'.format(np.mean(np.where(p == y,1,0)) * 100)
 
 raw_input("Program paused. Press Enter to continue.")

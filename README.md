@@ -12,9 +12,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Folder Structure
 
-1. ex1: Linear Regression Exercise
-2. ex2: Logistic Regression Exercise
-3. images: Set of helpful images
+1. **ex1**: Linear Regression Exercise
+2. **ex2**: Logistic Regression Exercise
+3. **images**: Set of helpful images
 
 ### Prerequisites
 

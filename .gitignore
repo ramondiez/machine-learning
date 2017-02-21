@@ -90,3 +90,4 @@ ENV/
 
 # Eclipse files
 .project
+.pydevproject

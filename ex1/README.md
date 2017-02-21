@@ -12,3 +12,6 @@
 
 ## Gradient Descent vectorized
 <img src="/images/gradientDescent_vectorized.png" alt="Gradient Descent vectorized" width="50%" height="10%">
+
+## Normal Equation
+<img src="/images/normalEquation.png" alt="Normal Equation" width="50%" height="10%">

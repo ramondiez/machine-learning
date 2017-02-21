@@ -1,10 +1,10 @@
-# Supervised Learning.
+# Linear Regression.
 
 ## Cost function non vectorized
-![Cost Function Vectorized](/images/costfunction.jpg)
+<img src="/images/costfunction.jpg" alt="Cost function non vectorized" width="50%" height="10%">
 
 
 ## Cost function vectorized
-![Cost Function Vectorized](/images/costfunction_vectorized.jpg)
+<img src="/images/costfunction_vectorized.jpg" alt="Cost function vectorized" width="50%" height="10%">
 
 

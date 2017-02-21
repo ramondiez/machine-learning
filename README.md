@@ -10,6 +10,12 @@ This project has been created as an exercise to implement using Python language 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+## Folder Structure
+
+1. ex1: Linear Regression Exercise
+2. ex2: Logistic Regression Exercise
+3. images: Set of helpful images
+
 ### Prerequisites
 
 In order to speed up the installation, please install a python virtualenv with the required packages
@@ -21,7 +27,7 @@ pip install numpy
 
 pip install matplotlib
 
-TODO
+TODO (Pending to check all packages)
 ```
 
 ### Running the examples

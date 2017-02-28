@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. **ex1**: Linear Regression Exercise
 2. **ex2**: Logistic Regression Exercise
-3. **ex3**: Neuronal Networks
+3. **ex3**: Logistic Regression with multiple classfiers and Neuronal Networks intro
 4. **images**: Set of helpful images
 
 ### Prerequisites

@@ -68,21 +68,8 @@ def oneVsAll(X, y, num_labels, Lambda):
         
     for c in range(num_labels):
         initial_theta = np.zeros((n + 1,1))
-        
-        #show(initial_theta.shape, X.shape, y.shape)
-        #c=np.full((m,), c, dtype=int)
-        
-        #show(c)
-        #J=lrCostFunction(initial_theta, X, y==c, Lambda)
-        #show(J)
-        #result=minimize(fun=lrCostFunction, x0=initial_theta, args=(X, y==c, Lambda), method='TNC', jac=gradientFunctionReg)
-        #result = minimize(lrCostFunction, initial_theta, method='CG', args=(X, y==c, Lambda),options={'gtol': 1e-4, 'disp': True, 'maxiter': 500})
-        #result = minimize(lrCostFunction, initial_theta, method='CG',jac=gradientFunctionReg, args=(X, y==c, Lambda),options={'gtol': 1e-4, 'disp': False, 'maxiter': 50})
         result = minimize(lrCostFunction, initial_theta, method='L-BFGS-B',jac=gradientFunctionReg, args=(X, y==c, Lambda),options={'maxiter': 50})
-        #show(result)
-        all_theta[c,:]=result.x
-        show("CostFunction: ",result.fun)
-        #all_theta[c,:] = fmin_cg(lrCostFunction, initial_theta, fprime=gradientFunctionReg, gtol=1e-05,args=(X, y==c, Lambda),maxiter=500)
+        all_theta[c,:]=result.x                
     return all_theta
     
     # =========================================================================
